@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-	Point point1;
+	Point point1;//defining points
 	Point point2;
 	cout << "Enter the x and y  values for point 1:";
 	cin >> point1.x >> point1.y;
 	cout << "Enter the x and y  values for point 2:";
 	cin >> point2.x >> point2.y;
-	if (point1.x == point2.x && point1.y == point2.y) {
+	if (point1.x == point2.x && point1.y == point2.y) {//check equality of pointers
 		cout << "Point 1 and 2 are equal." << endl;
 	}
 	else

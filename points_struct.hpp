@@ -5,9 +5,8 @@ using namespace std;
 struct Point {
 	int x;
 	int y;
-
-
 };
-ostream& operator<< (ostream& stream, const Point& point1);
+
+ostream& operator<< (ostream& stream, const Point& point1);//function declaration
 bool operator==(Point& point1, Point& point2);
 #endif
