@@ -1,0 +1,8 @@
+# Ignore all files
+*
+
+# Do not ignore these specific files
+!main.cpp
+!points_struct.cpp
+!points_struct.hpp
+!.gitignore
